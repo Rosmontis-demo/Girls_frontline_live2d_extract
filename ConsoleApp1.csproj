@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0E16B957-7F90-425B-BCDE-12A693745E6D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <AssemblyName>ConsoleApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MotionDataConverter.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="src\broken_3.fade-CAB-1184c803f41d1479676f91439ca21ac0-67566689966938694-MonoBehaviour.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="src\broken_4.fade-CAB-1184c803f41d1479676f91439ca21ac0-5254970597883943493-MonoBehaviour.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="src\broken_5.fade-CAB-1184c803f41d1479676f91439ca21ac0-14903647482156097549-MonoBehaviour.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="src\daiji_idle_01.fade-CAB-1184c803f41d1479676f91439ca21ac0-6122185063673344504-MonoBehaviour.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="src\daiji_idle_01.fade-CAB-1184c803f41d1479676f91439ca21ac0-6374083845660552206-MonoBehaviour.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="src\daiji_idle_01.fade-CAB-248541271bac63233a4bd0202a48f1ab-5367420710706601287-MonoBehaviour.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="src\daiji_idle_01.fade-CAB-28eddb6f44341cd1b768652b6353df36-5380971923707221720-MonoBehaviour.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="src\daiji_idle_01.fade-CAB-28eddb6f44341cd1b768652b6353df36-7615846939671033926-MonoBehaviour.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="src\daiji_idle_01.fade-CAB-52a86a0312ed4dd2c4cb4290903525da-6128634335391638133-MonoBehaviour.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="src\daiji_idle_01.fade-CAB-c45801714d961e7b8c0f748d975dcfa9-14687695775797531029-MonoBehaviour.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="src\daiji_idle_01.fade-CAB-c45801714d961e7b8c0f748d975dcfa9-5851590715449037932-MonoBehaviour.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="src\login.fade-CAB-1184c803f41d1479676f91439ca21ac0-17700083642430163926-MonoBehaviour.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="src\login.fade-CAB-1184c803f41d1479676f91439ca21ac0-8361363589267808981-MonoBehaviour.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="src\shake.fade-CAB-1184c803f41d1479676f91439ca21ac0-3515861686820211872-MonoBehaviour.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="src\shake.fade-CAB-1184c803f41d1479676f91439ca21ac0-7292692304323966305-MonoBehaviour.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="src\touch_2.fade-CAB-1184c803f41d1479676f91439ca21ac0-767007415863655779-MonoBehaviour.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="src\touch_3.fade-CAB-1184c803f41d1479676f91439ca21ac0-204548677810335671-MonoBehaviour.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="src\touch_4.fade-CAB-1184c803f41d1479676f91439ca21ac0-4965585070449799964-MonoBehaviour.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="src\touch_4.fade-CAB-1184c803f41d1479676f91439ca21ac0-5117951032993382314-MonoBehaviour.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="src\touch_5.fade-CAB-1184c803f41d1479676f91439ca21ac0-3671758396177629215-MonoBehaviour.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="src\touch_Halloween.fade-CAB-1184c803f41d1479676f91439ca21ac0-5136279201005134210-MonoBehaviour.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="src\touch_x.fade-CAB-1184c803f41d1479676f91439ca21ac0-670003985862385225-MonoBehaviour.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="src\wait_2.fade-CAB-1184c803f41d1479676f91439ca21ac0-3930396119522460615-MonoBehaviour.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="src\wedding.fade-CAB-1184c803f41d1479676f91439ca21ac0-13367553748422349777-MonoBehaviour.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="src\wedding_touch.fade-CAB-1184c803f41d1479676f91439ca21ac0-2482483595621899551-MonoBehaviour.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
